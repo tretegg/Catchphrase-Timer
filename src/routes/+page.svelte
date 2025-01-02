@@ -46,10 +46,22 @@
           beepAudio.volume = volume;
           beepAudio.play();
   
-          // Gradually shorten the beep interval as time goes down
-          beepInterval = Math.max(200, (1000 * timeRemaining) / (maxTime - minTime)); // Shorten interval as time goes down
-          if (beepInterval > 800) {
-              beepInterval = 800;
+          if (timeRemaining >= 40) {
+            beepInterval = 800;
+          } else if (timeRemaining >= 30) {
+            beepInterval = 700;
+          } else if (timeRemaining >= 25) {
+            beepInterval = 600;
+          } else if (timeRemaining >= 20) {
+            beepInterval = 500;
+          } else if (timeRemaining >= 15) {
+            beepInterval = 300;
+          } else if (timeRemaining >= 10) {
+            beepInterval = 100;
+          } else if (timeRemaining > 5) {
+            beepInterval = 50;
+          } else {
+            beepInterval = 25;
           }
   
           // Schedule the next beep
