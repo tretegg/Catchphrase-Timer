@@ -12,9 +12,7 @@ Volume is volume
 
 ## Known Issues
 
-Volume slider doesn't change volume on mobile
-
-
+Audio not working as intended on mobile
 
 
 ## Made in Svelte
