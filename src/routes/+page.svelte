@@ -71,6 +71,8 @@
       timeRemaining = 0;
     }
   </script>
+
+  <title>Catchphrase Timer</title>
   
   <div class="flex flex-col items-center justify-center h-screen text-black font-sans">
     <div class="relative">
