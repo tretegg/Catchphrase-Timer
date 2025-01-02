@@ -11,3 +11,4 @@ Min & Max values specify the range for the time
 Volume is volume
 
 
+Made in Svelte
