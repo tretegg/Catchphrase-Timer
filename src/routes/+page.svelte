@@ -65,6 +65,7 @@
           }
   
           // Schedule the next beep
+          console.log(beepInterval);
           setTimeout(beep, beepInterval);
         } else {
             beepEndAudio.volume = volume;
