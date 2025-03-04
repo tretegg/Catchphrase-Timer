@@ -13,7 +13,7 @@
 
 <!-- Github button fixed at the bottom left corner -->
 <a href="https://github.com/tretegg/Catchphrase-Timer" target="_blank">
-  <button class="w-12 h-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 fixed bottom-4 left-4">
+  <button class="w-12 h-12 rounded-xl shadow-lg hover:scale-110 transition-all duration-300 fixed bottom-4 left-4">
 	<!-- Set the GitHub SVG icon color to white -->
 	<Github class="w-6 h-6 text-white" />
   </button>
